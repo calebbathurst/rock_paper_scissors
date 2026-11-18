@@ -1,0 +1,18 @@
+<svg id="soulGroup" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 220">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #400000;
+      }
+
+      .cls-2 {
+        font-size: 22px;
+        fill: #fff;
+        font-family: LucidaBlackletter, Lucida Blackletter;
+      }
+    </style>
+  </defs>
+  <title>devilFace</title>
+  <rect class="cls-1" width="288" height="220"/>
+  <text class="cls-2" transform="translate(86.5 109.5)">Begin Draw</text>
+</svg>

@@ -1,0 +1,345 @@
+body {
+	background: url(../images/bg.svg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+/* Section Appearance Controls */
+.introBox {
+	display: inline;
+	opacity: 1;
+}
+
+#gameSection {
+	opacity: 0;
+	display: none;
+}
+
+#victorySection {
+	opacity: 0;
+	display: none;
+}
+
+#defeatSection {
+	opacity: 0;
+	display: none;
+}
+
+/* End Section Appearance Controls */
+
+.introContainer {
+	height: 600px;
+	background: rgba(64, 0, 0, 0.5);
+}
+
+.victoryContainer {
+	height: 750px;
+	background: rgba(64, 0, 0, 0.5);
+}
+
+#game-container {
+	height: 600px;
+	background: rgba(64, 0, 0, 0.5);
+}
+
+.playerLabel {
+	text-align: center;
+	font-family: Lucida Blackletter;
+	color: white;
+}
+
+.playerIcon {
+	height: 250px;
+	border-style: solid;
+	color: red;
+}
+
+.playerDrawBox {
+	height: 150px;
+	border-style: solid;
+	border-color: crimson;
+}
+
+.devilDrawBox {
+	height: 150px;
+	border-style: solid;
+	border-color: crimson;
+}
+
+.drawSelectionBox {
+	height: 150px;
+}
+
+.drawSelectionLabel {
+	text-align: center;
+	font-family: Lucida Blackletter;
+	color: white;
+}
+
+.playerGameIcon {
+	height: 100%;
+	width: 100%;
+}
+
+#playerGameIconID{
+
+}
+
+.devilLabel {
+	text-align: center;
+	font-family: Lucida Blackletter;
+	color: white;
+}
+
+.devilIcon {
+	height: 250px;
+	border-style: solid;
+	color: red;
+}
+
+.devilGameIcon {
+	height: 100%;
+	width: 100%;
+}
+
+.devilGreetingBox {
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+.scoreLabel {
+	text-align: center;
+	font-family: Lucida Blackletter;
+	color: white;
+}
+
+.playerScoreBox {
+	height: 40px;
+}
+
+input::placeholder {
+	color: black;
+	font-weight: 700;
+}
+
+#Player-Count {
+	background-color: red;
+	color: black;
+	text-align: center;
+	font-size: 30pt;
+	border-color: crimson;
+}
+
+#Devil-Count {
+	background-color: red;
+	color: black;
+	text-align: center;
+	font-size: 30pt;
+	border-color: crimson;
+}
+
+.devilScoreBox {
+	height: 40px;
+}
+
+.game_title {
+	font-family: Lucida Blackletter;
+	color: white;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.introArticleContainer {
+	height: 200px;
+}
+
+.articleTitle {
+	font-family: Lucida Blackletter;
+	color: white;
+	text-align: center;
+	letter-spacing: 4px;
+	opacity: 1;
+}
+
+.copyright-box{
+	background: rgba(64, 0, 0, 0.5);
+}
+
+.copyright{
+	font-family: Lucida Blackletter;
+	text-align: center;
+	color: white;
+}
+
+.divideMainandFooter{
+	height: 48px;
+}
+
+.victoryArticleTitle {
+	font-family: Lucida Blackletter;
+	color: #59f4ff;
+	text-align: center;
+}
+
+.defeatArticleTitle {
+	font-family: Lucida Blackletter;
+	color: red;
+	text-align: center;
+}
+
+.startButton {
+	background-color: #990303;
+	border: solid;
+	border-color: black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Lucida Blackletter;
+	opacity: 1;
+}
+
+.playAgainButton {
+	background-color: #990303;
+	border: solid;
+	border-color: black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Lucida Blackletter;
+}
+
+#button_rock {
+	background-color: #990303;
+	border: solid;
+	border-color: black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	-webkit-transition-duration: 0.5s;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Lucida Blackletter;
+}
+
+#button_rock:hover {
+	background-color: #ff0000;
+	color: white;
+	cursor: pointer;
+}
+
+#button_paper {
+	background-color: #990303;
+	border: solid;
+	border-color: black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	-webkit-transition-duration: 0.5s;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Lucida Blackletter;
+}
+
+#button_paper:hover {
+	background-color: #ff0000;
+	color: white;
+	cursor: pointer;
+}
+
+#button_scissors {
+	background-color: #990303;
+	border: solid;
+	border-color: black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	-webkit-transition-duration: 0.5s;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Lucida Blackletter;
+}
+
+#button_scissors:hover {
+	background-color: #ff0000;
+	color: white;
+	cursor: pointer;
+}
+
+.articleText {
+	font-family: Lucida Blackletter;
+	color: white;
+	text-align: left;
+	letter-spacing: 3px;
+	opacity: 1;
+}
+
+.msg-box-div {
+	height: 150px;
+}
+
+#msg-text {
+	font-family: Lucida Blackletter;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+/** Tablets **/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.victoryContainer {
+		height: 1045px;
+	}
+	.introContainer {
+		height: 705px;
+		background: rgba(64, 0, 0, 0.5);
+	}
+}
+
+/** Smartphones **/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+	.introContainer {
+		height: 780px;
+		background: rgba(64, 0, 0, 0.5);
+	}
+	.victoryContainer {
+		height: 1240px;
+	}
+	.playerDrawBox {
+		height: 91px;
+		border-style: solid;
+		border-color: crimson;
+	}
+	.devilDrawBox {
+		height: 91px;
+		border-style: solid;
+		border-color: crimson;
+	}
+	#game-container{
+		height: 490px;
+	}
+	
+	.playerIcon{
+		height: 150px;
+	}
+	
+	.playerGameIcon{
+		height: 90%;
+	}
+	
+	.devilIcon{
+		height: 150px;
+	}
+	
+	.devilGameIcon{
+		height: 90%;
+	}
+	
+}

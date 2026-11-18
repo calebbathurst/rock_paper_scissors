@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 147">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #400000;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-3 {
+        fill: #600000;
+      }
+    </style>
+  </defs>
+  <title>scissors</title>
+  <g id="bg">
+    <rect id="bg-2" data-name="bg" class="cls-1" width="288" height="147"/>
+  </g>
+  <g id="scissorGroup">
+    <ellipse id="scissor_background" class="cls-2" cx="135.44" cy="72.25" rx="76.94" ry="61.75"/>
+    <g id="scissor_part02">
+      <path id="scissor_part02-2" data-name="scissor_part02" class="cls-3" d="M105.5,56.25S116,58,118,58.75l2,.75L131.75,64,167.5,77l23.25,8.25,7.5,3s4,2,1.75,3.25l-2.25,1.25L191.5,96.5s-7.25-1-9-1.75L180.75,94l-34-11.75-15-6-10.75-8s-3.75-4.25-5.75-5l-2-.75L97.5,62.25s-12-.5-14.5-3.5l-2.5-3s-2.75-5.25-2.25-9.25l.5-4S82,35.25,87,34.75l5-.5s6.5-.75,9.75,1.75L105,38.5s2.5.92,2.25,5.83L107,49.25Z"/>
+      <circle id="scissor_part02Hole" class="cls-2" cx="93.25" cy="46.9" r="8.5"/>
+    </g>
+    <g id="scissor_part01">
+      <path id="scissor_part01Handle" class="cls-3" d="M105.5,84.5l26.25-8.25,26-10L192.5,53.5l7.5-3-3-3.25S193.5,45,191.5,45h-2s-5.75-1.5-9,0l-3.25,1.5L134,64.42s-11.5,6.83-13,7.83l-1.5,1-6.5,5a48.75,48.75,0,0,1-7.5,1h-2.75l-10.5.25s-12,4.75-13,8.5l-1,3.75s.5,9.5,2.75,11l2.25,1.5a17.78,17.78,0,0,0,8.5,2.25l5.5.25s7.5-2,8.75-4.75l1.25-2.75s1-6.5.5-8.75l-.5-2.25Z"/>
+      <circle id="scissor_part01Hole" class="cls-2" cx="93.25" cy="93.5" r="8.5"/>
+    </g>
+  </g>
+</svg>

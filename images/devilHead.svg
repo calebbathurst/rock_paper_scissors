@@ -1,0 +1,62 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244.48 191">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a40000;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #2e3436;
+        stroke-linecap: round;
+        stroke-width: 0.33px;
+      }
+
+      .cls-3 {
+        fill: #620000;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0.32px;
+      }
+
+      .cls-5 {
+        fill: #eeeeec;
+        stroke: #5a3333;
+      }
+
+      .cls-6 {
+        fill: #ff0600;
+      }
+    </style>
+  </defs>
+  <title>devilHead</title>
+  <g id="devilHead">
+    <path id="devilEar_Right" class="cls-1" d="M211.07,150.37c0,12,11.3,21.7,25.2,21.7s25.19-9.74,25.19-21.7,6.39-51.64-1.13-40.73c-10.57,15.5-49.26,28.7-49.26,40.73Z" transform="translate(-19.52 -35)"/>
+    <ellipse id="devilEarHole_Right" cx="230.04" cy="150.81" rx="14.53" ry="12.71" transform="translate(-6.94 284.25) rotate(-71.01)"/>
+    <path id="devilEar_Left" class="cls-1" d="M72.46,146.46c0,12-11.3,21.76-25.2,21.76s-25.2-9.73-25.2-21.76-6.38-51.64,1.07-40.66c10.57,15.49,49.33,28.7,49.33,40.66Z" transform="translate(-19.52 -35)"/>
+    <ellipse id="devilEarHole_Left" cx="53.49" cy="146.94" rx="12.71" ry="14.53" transform="translate(-64.42 -9.6) rotate(-18.99)"/>
+    <path id="devilHead_Body" class="cls-1" d="M232.68,120.24c0,47.05-41,105.76-91.41,105.76S49.85,167.29,49.85,120.24,90.81,35,141.27,35,232.68,73.19,232.68,120.24Z" transform="translate(-19.52 -35)"/>
+    <path id="devilMouth" class="cls-2" d="M109.62,178.89c7.38,2.17,13.43,6.19,22.54,7.62,10,1.61,37.36,1.43,37.36,1.43" transform="translate(-19.52 -35)"/>
+    <path id="devilBrow_Left" d="M81,121.85l36.24,6.39,5.91,17-15.42-15.63Z" transform="translate(-19.52 -35)"/>
+    <path id="devilBrow_Right" d="M192.19,120.3l-36.3,6.39L150,143.74l15.49-15.63Z" transform="translate(-19.52 -35)"/>
+    <path id="devil_NostrilLeft" class="cls-3" d="M116.67,165.56l9.57-8.56,7.45,12.83-14.56-3.9" transform="translate(-19.52 -35)"/>
+    <path id="devil_Nose" class="cls-4" d="M118.33,136.85l15,34.53,6.25-6.63,2.86,5.08s3.32,2.3,5.45-.43,4.52-33.66,4.52-33.66" transform="translate(-19.52 -35)"/>
+    <path id="devil_NostrilRight" class="cls-4" d="M162.34,166.73l-9.51-8.55L145.32,171l14.56-3.84" transform="translate(-19.52 -35)"/>
+    <path id="devilHorn_Left" class="cls-5" d="M78,82.73C31,58.62,38.68,23.59,31,58.62s29.38,51.52,29.38,51.52S86.29,108.52,78,82.73Z" transform="translate(-19.52 -35)"/>
+    <path id="devilHorn_Right" class="cls-5" d="M200.3,76.72c47-24.11,39.36-59.14,47-24.11s-29.38,51.51-29.38,51.51-25.86-1.61-17.62-27.4Z" transform="translate(-19.52 -35)"/>
+    <g id="path4818">
+      <ellipse class="cls-6" cx="78.23" cy="106.94" rx="14.98" ry="10.96"/>
+    </g>
+    <g id="path4928">
+      <ellipse class="cls-6" cx="153.42" cy="108.04" rx="14.98" ry="10.96"/>
+    </g>
+  </g>
+</svg>
