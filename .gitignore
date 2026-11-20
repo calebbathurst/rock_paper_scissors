@@ -1,3 +1,4 @@
+# Secrets and logs - never commit these
 # OS and editor files
 .DS_Store
 Thumbs.db
