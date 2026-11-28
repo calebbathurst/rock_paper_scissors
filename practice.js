@@ -5,7 +5,7 @@ const introduction = "Hi. I am Caleb Bathurst. A web designer and developer."
 let score = 0;
 score = 1;
 
-// ***** Arrrow Functions ******** //
+// ***** Arrow Functions ******** //
 
 //old
 //const double = function (n) { return n * 2};
