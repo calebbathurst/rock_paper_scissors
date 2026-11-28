@@ -21,9 +21,17 @@ const message = `You scored ${score} out of ${total}.`;
 
 // ***** Destructuring ******** //
 const player = { name: "Caleb", score: 3 };
-const { name, score: playerScore } = player;        // name === "Caleb", score === 3
+const { name, score: playerScore } = player;        // name === "Caleb", playerScore === 3
 
 const choices = ["rock", "paper", "scissors"];
 const [first, second] = choices;    // first === "rock"
 
-console.log(choices);
+// ***** Spread & Rest ******** //
+// ***** IE: Spread copies or combines. Rest gathers leftovers into
+//       an array. ******** //
+
+const more = [...choices, "lizard"]; // a new array
+const updated = { ...player, score: 4 }; // a new object, score changed
+function sum(...numbers) {return numbers.reduce((a, b) => a + b, 0); }
+
+console.log(updated);
