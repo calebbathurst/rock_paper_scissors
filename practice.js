@@ -19,4 +19,11 @@ const greet = name => `Hello, ${name}`;
 const total = 5;
 const message = `You scored ${score} out of ${total}.`;
 
-console.log(message);
+// ***** Destructuring ******** //
+const player = { name: "Caleb", score: 3 };
+const { name, score: playerScore } = player;        // name === "Caleb", score === 3
+
+const choices = ["rock", "paper", "scissors"];
+const [first, second] = choices;    // first === "rock"
+
+console.log(choices);
